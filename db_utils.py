@@ -3,7 +3,7 @@ import pymongo
 from random import sample
 
 # MongoDB Connection
-client = pymongo.MongoClient("mongodb+srv://Bhanu_9999:Thanuja@562994@cluster0.yyrj4au.mongodb.net/")
+client = pymongo.MongoClient("mongodb%2Bsrv%3A%2F%2FBhanu_9999%3AThanuja%40562994%40cluster0.yyrj4au.mongodb.net%2F")
 db = client["skill_based"]
 
 def get_all_questions(skill, difficulty):
