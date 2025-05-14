@@ -1,0 +1,7 @@
+streamlit
+pymongo
+email-validator
+python-dotenv
+spacy
+PyPDF2
+python-docx
